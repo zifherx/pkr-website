@@ -19,7 +19,7 @@ export function NuestrosAliados() {
   const plugin = useRef(Autoplay({ delay: 3000 }));
 
   return (
-    <div className=" w-full">
+    <div className="w-full">
       <div className="max-w-4xl px-14 lg:max-w-6xl mx-auto py-4 md:px-0 md:py-14 items-center">
         <TitleSection
           title="Nuestros Aliados"
@@ -31,15 +31,18 @@ export function NuestrosAliados() {
           opts={{ loop: true }}
           plugins={[plugin.current]}
         >
-          <CarouselContent>
+          <CarouselContent className="gap-3">
             {aliadosData.map(({ id, name, src }) => (
-              <CarouselItem key={id} className="basis-4/12 md:basis-32">
+              <CarouselItem
+                key={id}
+                className="basis-2/3 md:basis-1/6 my-auto mx-auto"
+              >
                 <Image
-                  className="object-contain cursor-pointer"
+                  className="object-contain cursor-pointer rounded-xl"
                   src={src}
                   alt={`Aliado ${name}`}
-                  width={120}
-                  height={120}
+                  width={250}
+                  height={300}
                 />
               </CarouselItem>
             ))}

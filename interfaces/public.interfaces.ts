@@ -20,3 +20,16 @@ export interface iItemGallery {
   src: string;
   name: string;
 }
+
+export interface iNumberBG {
+  id: number;
+  value: number;
+  x: number;
+  y: number;
+}
+
+export interface iValores {
+  id: number;
+  title: string;
+  description: string;
+}

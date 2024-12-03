@@ -3,6 +3,7 @@ import { Counters } from "./components/Counters";
 import { Nosotros } from "./components/Nosotros";
 import { NuestrosAliados } from "./components/NuestroAliados";
 import { Asesoria } from "./components/Asesoria";
+import { NuestrosServicios } from "./components/NuestrosServicios";
 
 export default function HomePage() {
   return (
@@ -10,8 +11,7 @@ export default function HomePage() {
       <FirstBlock />
       <Counters />
       <Nosotros />
-      <p>Servicios</p>
-      <p>Nuestros Rubros</p>
+      <NuestrosServicios />
       <NuestrosAliados />
       <Asesoria />
     </>
