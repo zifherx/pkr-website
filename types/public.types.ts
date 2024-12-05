@@ -1,5 +1,5 @@
 import { schemaFormContacto } from "@/forms";
-import { iHeader, iItemCounter, iItemGallery } from "@/interfaces";
+import { iHeader, iItemCounter, iItemGallery, iService } from "@/interfaces";
 import { LucideIcon } from "lucide-react";
 import { ReactNode } from "react";
 import { UseFormReturn } from "react-hook-form";
@@ -46,3 +46,7 @@ export type tMotionIcon = {
   scaleHover: number;
   scaleTap: number;
 };
+
+export type tServicio = {
+  servicio: iService
+}

@@ -1,6 +1,6 @@
 import { Home, Speech, Users, Wrench } from "lucide-react";
 
-import { iHeader, iItemCounter, iItemGallery, iValores } from "@/interfaces";
+import { iHeader, iItemCounter, iItemGallery, iService, iValores } from "@/interfaces";
 
 export const headerData: iHeader[] = [
   {
@@ -167,3 +167,102 @@ export const valoresData: iValores[] = [
       "Cumplimos con todas las normativas y fomentamos el desarrollo sostenible de las empresas.",
   },
 ];
+
+export const serviciosData: iService[] = [
+  {
+    id: 1,
+    slug: "asesoria-tributaria",
+    title: "Asesoría Tributaria",
+    image: "https://placehold.co/800x400",
+    cta: "Optimiza tu estrategia fiscal",
+    parrafos: [
+      {
+        id: 1,
+        parrafo: "Maximiza el potencial de tu empresa con nuestra asesoría tributaria especializada. "
+      },
+      {
+        id: 2,
+        parrafo: "Nuestro equipo de expertos se dedica a analizar exhaustivamente tu situación fiscal para desarrollar estrategias que optimicen tu carga tributaria dentro del marco legal."
+      },
+      {
+        id: 3,
+        parrafo: "Ofrecemos planificación fiscal preventiva, gestión de declaraciones, representación ante autoridades fiscales y asesoramiento continuo en normativas tributarias."
+      },
+      {
+        id:4,
+        parrafo: "Nos mantenemos actualizados con las últimas reformas fiscales para asegurar que tu empresa cumpla con todas las obligaciones mientras aprovecha los beneficios fiscales disponibles."
+      }
+    ],
+  },
+  {
+    id: 2,
+    slug: "contabilidad-general",
+    title: "Contabilidad General",
+    image: "https://placehold.co/800x400",
+    cta: "Organiza tu contabilidad",
+    parrafos: [
+      {
+        id: 1,
+        parrafo: "Brindamos un servicio integral de contabilidad que va más allá de los números. "
+      },
+      {
+        id: 2,
+        parrafo: "Nuestro enfoque meticuloso abarca desde el registro diario de transacciones hasta la elaboración de estados financieros complejos. "
+      },
+      {
+        id: 3,
+        parrafo: "Implementamos sistemas contables eficientes, gestionamos nóminas, controlamos inventarios y generamos reportes personalizados que te permiten tomar decisiones informadas. "
+      },
+      {
+        id: 4,
+        parrafo: "Nuestro compromiso es mantener tu contabilidad actualizada, precisa y en cumplimiento con las normas vigentes, permitiéndote concentrarte en el crecimiento de tu negocio."
+      }
+    ],
+  },
+  {
+    id: 3,
+    slug: "auditoria-financiera",
+    title: "Auditoría Financiera",
+    image: "https://placehold.co/800x400",
+    cta: "Verifica tu salud financiera",
+    parrafos: [
+      {
+        id: 1,
+        parrafo: "Realizamos auditorías financieras exhaustivas que proporcionan una visión clara y objetiva de la salud financiera de tu empresa."
+      },
+      {
+        id: 2,
+        parrafo: "Nuestro proceso incluye la revisión detallada de estados financieros, evaluación de controles internos, verificación de cumplimiento normativo y análisis de riesgos."
+      },
+      {
+        id: 3,
+        parrafo: "Implementamos metodologías avanzadas de auditoría para identificar áreas de mejora y ofrecer recomendaciones estratégicas."
+      },
+      {
+        id:4,
+        parrafo: "Garantizamos la transparencia y precisión de tu información financiera, fortaleciendo la confianza de inversores y stakeholders."
+      }
+    ],
+  },
+  {
+    id: 4,
+    slug: "planificacion-financiera",
+    title: "Planificación Financiera",
+    image: "https://placehold.co/800x400",
+    cta: "Planifica tu futuro financiero",
+    parrafos: [
+      {
+        id: 1,
+        parrafo: ""
+      },
+      {
+        id: 2,
+        parrafo: ""
+      },
+      {
+        id: 3,
+        parrafo: ""
+      }
+    ],
+  },
+]

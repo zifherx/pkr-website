@@ -11,7 +11,7 @@ export function Header() {
   const [openMobileMenu, setOpenMobileMenu] = useState(false);
 
   return (
-    <header className="container mx-auto my-5">
+    <header className="w-full md:px-8 md:py-5 mt-2 md:mt-0 border-4 border-orange-500">
       <div className="flex items-center justify-between px-5 md:px-0">
         <Link href="/">
           <Image

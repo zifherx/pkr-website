@@ -45,7 +45,7 @@ export default function ContactoPage() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-gray-50 to-gray-100 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-gray-50 to-gray-100 p-4 sm:p-6 lg:p-8">
       <AnimatePresence mode="wait">
         {!isSubmitted ? (
           <ContactForm

@@ -33,3 +33,17 @@ export interface iValores {
   title: string;
   description: string;
 }
+
+export interface iService{
+  id: number;
+  slug: string
+  title: string;
+  parrafos: iParrafo[];
+  image: string;
+  cta: string
+}
+
+export interface iParrafo{
+  id: number
+  parrafo: string
+}

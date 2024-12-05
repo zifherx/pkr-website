@@ -8,11 +8,11 @@ export default function routeHomeLayout({
   children,
 }: Readonly<{ children: ReactNode }>) {
   return (
-    <>
+    <div className="max-w-7xl mx-auto border-2 border-black">
       <MotionTransition />
       <Header />
       <main>{children}</main>
       <Footer />
-    </>
+    </div>
   );
 }
