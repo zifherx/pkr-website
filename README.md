@@ -88,4 +88,4 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 Para más información sobre nuestros servicios, visita [pkr.com.pe](https://pkr.com.pe) o contáctanos a través de nuestro formulario en línea.
 
 ---
-⚡️ Desarrollado con 💙 por [Ziphonex Tech] (https://ziphonex.com)
+⚡️ Desarrollado con 💙 por [Ziphonex Tech](https://ziphonex.com)
