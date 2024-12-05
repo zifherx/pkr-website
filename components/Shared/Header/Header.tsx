@@ -11,15 +11,15 @@ export function Header() {
   const [openMobileMenu, setOpenMobileMenu] = useState(false);
 
   return (
-    <header className="w-full md:px-8 md:py-5 mt-2 md:mt-0 border-4 border-orange-500">
-      <div className="flex items-center justify-between px-5 md:px-0">
+    <header className="w-full py-4">
+      <div className="flex items-center justify-between">
         <Link href="/">
           <Image
             src="/images/logo-1.jpeg"
-            width={100}
-            height={100}
+            width={200}
+            height={250}
             alt="Logo PKR"
-            className="w-auto h-16 rounded-sm"
+            className="w-auto h-20 rounded-sm"
           />
         </Link>
 

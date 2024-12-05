@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏢 Portal PKR Tributarios
 
-## Getting Started
+[![Vercel Status](https://vercelbadge.vercel.app/api/zifherx/pkr-website)](https://pkr.com.pe)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
-First, run the development server:
+## 📌 Descripción
+
+Sitio web oficial de PKR Tributarios, una firma líder en servicios contables y tributarios en Perú. Diseñado para proporcionar una experiencia de usuario fluida y profesional, presentando nuestros servicios especializados de manera clara y accesible.
+
+🌐 **[Visitar Sitio Web](https://pkr.com.pe)**
+
+## ✨ Características Principales
+
+### Servicios Profesionales
+- 📊 **Asesoría Tributaria**
+  - Estrategias de optimización Tributaria
+  - Cumplimiento normativo
+  
+- 📚 **Contabilidad General**
+  - Gestión integral de la contabilidad
+  - Estados financieros
+  
+- 🔍 **Auditoría Financiera**
+  - Revisiones y verificaciones contables
+  
+- 💹 **Planificación Financiera**
+  - Desarrollo de planes económicos
+  - Estrategias de crecimiento
+  
+- 🏗️ **Gestión Empresarial**
+  - Creación de empresas
+  - Mejora de procesos
+  - Servicios administrativos
+
+## 🛠️ Tecnologías Utilizadas
+
+- **Frontend:** Next.js
+- **Estilos:** Tailwind CSS
+- **Routing:** React Router
+- **Optimización:** Vite
+- **Despliegue:** Vercel
+
+## 🚀 Instalación y Uso
 
 ```bash
+# Clonar el repositorio
+git clone https://github.com/zifherx/pkr-website.git
+
+# Navegar al directorio
+cd pkr-website
+
+# Instalar dependencias
+npm install
+
+# Iniciar servidor de desarrollo
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Construir para producción
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📱 Responsive Design
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+El sitio está completamente optimizado para:
+- 💻 Escritorio
+- 📱 Tablet
+- 📱 Móvil
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🤝 Contribución
 
-## Learn More
+Las contribuciones son bienvenidas. Por favor, sigue estos pasos:
 
-To learn more about Next.js, take a look at the following resources:
+1. Fork el proyecto
+2. Crea una nueva rama (`git checkout -b feature/mejora`)
+3. Commit tus cambios (`git commit -m 'Añade nueva mejora'`)
+4. Push a la rama (`git push origin feature/mejora`)
+5. Abre un Pull Request
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📄 Licencia
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
 
-## Deploy on Vercel
+## 📞 Contacto
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Para más información sobre nuestros servicios, visita [pkr.com.pe](https://pkr.com.pe) o contáctanos a través de nuestro formulario en línea.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+⚡️ Desarrollado con 💙 por [Ziphonex Tech] (https://ziphonex.com)

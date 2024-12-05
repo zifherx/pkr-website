@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
-import { ToogleTheme } from "@/components/Shared/ToogleTheme/ToogleTheme";
+import { ToogleTheme } from "@/components/Shared/ToogleTheme";
 import { NavbarItem } from "../NavbarItem";
 
 import { headerData } from "@/data";
@@ -55,7 +55,7 @@ export function Navbar(props: tNavbar) {
           initial="initial"
           animate="animate"
           exit="exit"
-          className="ml-auto mr-auto md:fixed z-[9999] mt-auto left-0 right-0 px-6 py-3 w-fit h-max text-white bg-bluePKR rounded-3xl backdrop-blur bottom-14"
+          className="ml-auto mr-auto md:fixed z-[9999] mt-auto left-0 right-0 px-6 py-3 w-fit h-max text-white bg-bluePKR rounded-3xl backdrop-blur bottom-28"
         >
           <div className="items-center hidden gap-7 md:flex md:justify-center">
             {headerData.map((item) => (

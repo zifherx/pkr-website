@@ -1,8 +1,7 @@
 import { tNavbarItem } from "@/types";
 import Link from "next/link";
 
-export function NavbarItem(props: tNavbarItem) {
-  const { isMenuHold, items } = props;
+export function NavbarItem({isMenuHold,items}: tNavbarItem) {
   const { id, icon: Icon, link, name } = items;
 
   return (
@@ -19,7 +18,7 @@ export function NavbarItem(props: tNavbarItem) {
         <Link
           key={id}
           href={link}
-          className="block hover:text-bluePKR hover:border-b-[2px] hover:border-bluePKR"
+          className="block font-semibold hover:text-bluePKR hover:border-b-[1px] hover:border-bluePKR"
         >
           {name}
         </Link>
