@@ -28,7 +28,7 @@ export function ItemService({ servicio }: tServicio) {
       <Card className="overflow-hidden transition-shadow duration-300 hover:shadow-xl h-[450px] flex flex-col">
         <CardHeader className="p-0">
           <Image
-            src={image}
+            src={`/images/services/${image}`}
             width={800}
             height={400}
             alt={title}
@@ -45,7 +45,7 @@ export function ItemService({ servicio }: tServicio) {
           <Link href={`/servicios/${slug}`} passHref className="w-full">
             <Button className="w-full">
               {cta}
-              <Info className="ml-2 h-5 w-5" />
+              <Info className="ml-2 h-6 w-6" />
             </Button>
           </Link>
         </CardFooter>

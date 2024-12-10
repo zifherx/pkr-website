@@ -48,5 +48,9 @@ export type tMotionIcon = {
 };
 
 export type tServicio = {
-  servicio: iService
-}
+  servicio: iService;
+};
+
+export type tListaServicios = {
+  servicios: iService[];
+};

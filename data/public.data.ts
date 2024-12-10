@@ -179,7 +179,7 @@ export const serviciosData: iService[] = [
     id: 1,
     slug: "asesoria-tributaria",
     title: "Asesoría Tributaria",
-    image: "https://placehold.co/800x400",
+    image: "servicio-1.jpg",
     cta: "Optimiza tu estrategia fiscal",
     parrafos: [
       {
@@ -208,7 +208,7 @@ export const serviciosData: iService[] = [
     id: 2,
     slug: "contabilidad-general",
     title: "Contabilidad General",
-    image: "https://placehold.co/800x400",
+    image: "servicio-2.jpg",
     cta: "Organiza tu contabilidad",
     parrafos: [
       {
@@ -237,7 +237,7 @@ export const serviciosData: iService[] = [
     id: 3,
     slug: "auditoria-financiera",
     title: "Auditoría Financiera",
-    image: "https://placehold.co/800x400",
+    image: "servicio-3.jpg",
     cta: "Verifica tu salud financiera",
     parrafos: [
       {
@@ -266,7 +266,7 @@ export const serviciosData: iService[] = [
     id: 4,
     slug: "planificacion-financiera",
     title: "Planificación Financiera",
-    image: "https://placehold.co/800x400",
+    image: "servicio-4.jpg",
     cta: "Planifica tu futuro financiero",
     parrafos: [
       {
@@ -295,7 +295,7 @@ export const serviciosData: iService[] = [
     id: 5,
     slug: "gestion-empresarial",
     title: "Gestión Empresarial",
-    image: "https://placehold.co/800x400",
+    image: "servicio-5.jpg",
     cta: "Impulsa tu empresa",
     parrafos: [
       {
