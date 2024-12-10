@@ -1,7 +1,7 @@
 import { tNavbarItem } from "@/types";
 import Link from "next/link";
 
-export function NavbarItem({isMenuHold,items}: tNavbarItem) {
+export function NavbarItem({ isMenuHold, items }: tNavbarItem) {
   const { id, icon: Icon, link, name } = items;
 
   return (
@@ -18,7 +18,7 @@ export function NavbarItem({isMenuHold,items}: tNavbarItem) {
         <Link
           key={id}
           href={link}
-          className="block font-semibold hover:text-bluePKR hover:border-b-[1px] hover:border-bluePKR"
+          className="block uppercase hover:text-bluePKR hover:border-b-[1px] hover:border-bluePKR"
         >
           {name}
         </Link>

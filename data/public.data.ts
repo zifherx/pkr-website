@@ -1,6 +1,12 @@
 import { Home, Speech, Users, Wrench } from "lucide-react";
 
-import { iHeader, iItemCounter, iItemGallery, iService, iValores } from "@/interfaces";
+import {
+  iHeader,
+  iItemCounter,
+  iItemGallery,
+  iService,
+  iValores,
+} from "@/interfaces";
 
 export const headerData: iHeader[] = [
   {
@@ -178,20 +184,24 @@ export const serviciosData: iService[] = [
     parrafos: [
       {
         id: 1,
-        parrafo: "Maximiza el potencial de tu empresa con nuestra asesoría tributaria especializada. "
+        parrafo:
+          "Maximiza el potencial de tu empresa con nuestra asesoría tributaria especializada. ",
       },
       {
         id: 2,
-        parrafo: "Nuestro equipo de expertos se dedica a analizar exhaustivamente tu situación fiscal para desarrollar estrategias que optimicen tu carga tributaria dentro del marco legal."
+        parrafo:
+          "Nuestro equipo de expertos se dedica a analizar exhaustivamente tu situación fiscal para desarrollar estrategias que optimicen tu carga tributaria dentro del marco legal.",
       },
       {
         id: 3,
-        parrafo: "Ofrecemos planificación fiscal preventiva, gestión de declaraciones, representación ante autoridades fiscales y asesoramiento continuo en normativas tributarias."
+        parrafo:
+          "Ofrecemos planificación fiscal preventiva, gestión de declaraciones, representación ante autoridades fiscales y asesoramiento continuo en normativas tributarias.",
       },
       {
-        id:4,
-        parrafo: "Nos mantenemos actualizados con las últimas reformas fiscales para asegurar que tu empresa cumpla con todas las obligaciones mientras aprovecha los beneficios fiscales disponibles."
-      }
+        id: 4,
+        parrafo:
+          "Nos mantenemos actualizados con las últimas reformas fiscales para asegurar que tu empresa cumpla con todas las obligaciones mientras aprovecha los beneficios fiscales disponibles.",
+      },
     ],
   },
   {
@@ -203,20 +213,24 @@ export const serviciosData: iService[] = [
     parrafos: [
       {
         id: 1,
-        parrafo: "Brindamos un servicio integral de contabilidad que va más allá de los números. "
+        parrafo:
+          "Brindamos un servicio integral de contabilidad que va más allá de los números. ",
       },
       {
         id: 2,
-        parrafo: "Nuestro enfoque meticuloso abarca desde el registro diario de transacciones hasta la elaboración de estados financieros complejos. "
+        parrafo:
+          "Nuestro enfoque meticuloso abarca desde el registro diario de transacciones hasta la elaboración de estados financieros complejos. ",
       },
       {
         id: 3,
-        parrafo: "Implementamos sistemas contables eficientes, gestionamos nóminas, controlamos inventarios y generamos reportes personalizados que te permiten tomar decisiones informadas. "
+        parrafo:
+          "Implementamos sistemas contables eficientes, gestionamos nóminas, controlamos inventarios y generamos reportes personalizados que te permiten tomar decisiones informadas. ",
       },
       {
         id: 4,
-        parrafo: "Nuestro compromiso es mantener tu contabilidad actualizada, precisa y en cumplimiento con las normas vigentes, permitiéndote concentrarte en el crecimiento de tu negocio."
-      }
+        parrafo:
+          "Nuestro compromiso es mantener tu contabilidad actualizada, precisa y en cumplimiento con las normas vigentes, permitiéndote concentrarte en el crecimiento de tu negocio.",
+      },
     ],
   },
   {
@@ -228,20 +242,24 @@ export const serviciosData: iService[] = [
     parrafos: [
       {
         id: 1,
-        parrafo: "Realizamos auditorías financieras exhaustivas que proporcionan una visión clara y objetiva de la salud financiera de tu empresa."
+        parrafo:
+          "Realizamos auditorías financieras exhaustivas que proporcionan una visión clara y objetiva de la salud financiera de tu empresa.",
       },
       {
         id: 2,
-        parrafo: "Nuestro proceso incluye la revisión detallada de estados financieros, evaluación de controles internos, verificación de cumplimiento normativo y análisis de riesgos."
+        parrafo:
+          "Nuestro proceso incluye la revisión detallada de estados financieros, evaluación de controles internos, verificación de cumplimiento normativo y análisis de riesgos.",
       },
       {
         id: 3,
-        parrafo: "Implementamos metodologías avanzadas de auditoría para identificar áreas de mejora y ofrecer recomendaciones estratégicas."
+        parrafo:
+          "Implementamos metodologías avanzadas de auditoría para identificar áreas de mejora y ofrecer recomendaciones estratégicas.",
       },
       {
-        id:4,
-        parrafo: "Garantizamos la transparencia y precisión de tu información financiera, fortaleciendo la confianza de inversores y stakeholders."
-      }
+        id: 4,
+        parrafo:
+          "Garantizamos la transparencia y precisión de tu información financiera, fortaleciendo la confianza de inversores y stakeholders.",
+      },
     ],
   },
   {
@@ -253,16 +271,53 @@ export const serviciosData: iService[] = [
     parrafos: [
       {
         id: 1,
-        parrafo: ""
+        parrafo:
+          "Diseñamos estrategias financieras personalizadas que impulsan el crecimiento sostenible de tu empresa.",
       },
       {
         id: 2,
-        parrafo: ""
+        parrafo:
+          "Nuestro servicio abarca la creación de presupuestos detallados, proyecciones financieras, análisis de flujo de caja y evaluación de inversiones.",
       },
       {
         id: 3,
-        parrafo: ""
-      }
+        parrafo:
+          "Desarrollamos planes financieros robustos que consideran múltiples escenarios económicos, ayudándote a anticipar desafíos y aprovechar oportunidades.",
+      },
+      {
+        id: 4,
+        parrafo:
+          "Te guiamos en la toma de decisiones financieras críticas para alcanzar tus objetivos empresariales a corto y largo plazo.",
+      },
     ],
   },
-]
+  {
+    id: 5,
+    slug: "gestion-empresarial",
+    title: "Gestión Empresarial",
+    image: "https://placehold.co/800x400",
+    cta: "Impulsa tu empresa",
+    parrafos: [
+      {
+        id: 1,
+        parrafo:
+          "Potenciamos el éxito de tu empresa desde su concepción hasta su expansión.",
+      },
+      {
+        id: 2,
+        parrafo:
+          "Nuestros servicios abarcan la constitución legal de empresas, optimización de procesos operativos, implementación de sistemas de gestión y asesoramiento estratégico continuo.",
+      },
+      {
+        id: 3,
+        parrafo:
+          "Trabajamos estrechamente contigo para identificar oportunidades de mejora, desarrollar estrategiar de crecimiento y estalecer métricas de rendimiento efectivas.",
+      },
+      {
+        id: 4,
+        parrafo:
+          "Te ayudamos a construir una empresa sólidad y eficiente, preparada para enfrentar los desafíos del mercado actual.",
+      },
+    ],
+  },
+];

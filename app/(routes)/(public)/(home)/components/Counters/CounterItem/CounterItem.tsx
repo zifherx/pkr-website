@@ -9,7 +9,7 @@ export function CounterItem({ items }: tCounter) {
     <div className={`${lineRight && "ltr"}`}>
       <div
         className={`${
-          lineRight && "px-10 border-2 border-transparent md:border-e-bluePKR"
+          lineRight && "px-6 border-2 border-transparent md:border-e-bluePKR"
         } ${lineRightMobile && "border-e-bluePKR"}`}
       >
         <p className="flex mb-2 text-2xl font-extrabold md:text-4xl text-bluePKR">
